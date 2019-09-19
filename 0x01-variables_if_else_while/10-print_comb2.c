@@ -10,25 +10,25 @@
 */
 int main(void)
 {
-	int num, num2;
+	int i, j;
 
-	num = 0;
-	num2 = 0;
-	while (num <= 9)
+	i = 0;
+	j = 0;
+	while (i <= 9)
 	{
-		while (num2 <= 9)
+		while (j <= 9)
 		{
-			putchar(num % 10 + '0');
-			putchar(num2 % 10 + '0');
-			if (num <= 9 && num2 < 9)
+			putchar(i % 10 + '0');
+			putchar(j % 10 + '0');
+			if (i != 9 || j != 9)
 			{
 				putchar(',');
 				putchar(' ');
 			}
-			num2++;
+			j++;
 		}
-		num++;
-		num2 = 0;
+		i++;
+		j = 0;
 	}
 	putchar('\n');
 	return (0);
