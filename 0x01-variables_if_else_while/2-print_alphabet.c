@@ -20,5 +20,5 @@ int main(void)
 			putchar('\n');
 			letter = letter + 1;
 		}
-	return(0);
+	return (0);
 }
