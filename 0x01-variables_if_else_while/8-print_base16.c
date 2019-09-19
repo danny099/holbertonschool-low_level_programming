@@ -17,7 +17,7 @@ int main(void)
 	U = 'a';
 	while (num <= 9)
 	{
-		printf("%d", num);
+		putchar(num % 10 + '0');
 		num = num + 1;
 	}
 	while (U <= 'f')
