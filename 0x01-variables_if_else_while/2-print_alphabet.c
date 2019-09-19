@@ -11,14 +11,14 @@
 */
 int main(void)
 {
-	char letter;
+	char c;
 
-	letter = 'a';
-		while (letter <= 'z')
+	c = 'a';
+		while (c <= 'z')
 		{
-			putchar(letter);
+			putchar(c);
 			putchar('\n');
-			letter = letter + 1;
+			c = c + 1;
 		}
 	return (0);
 }
