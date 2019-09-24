@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - causes an infinite loop
- * Return: 0
- */
+* main - causes an infinite loop
+* Return: 0
+*/
 
 int main(void)
 {
@@ -11,8 +11,12 @@ int main(void)
 
 	printf("Infinite loop incoming :(\n");
 
-	i = 0; /*j never increments so it will always be less than 10*/
+	i = 0; 
 
+/**
+*the error is a condicion of while
+*/
+	
 	while (i < 10)
 	{
 	putchar(i);
