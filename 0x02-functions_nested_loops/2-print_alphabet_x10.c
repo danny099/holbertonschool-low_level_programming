@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* print_alphabet x10 - writes the lowercase letters
+* print_alphabet_x10 - writes the lowercase letters
 *
 *
 * Return: On success lowercase letters.
