@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
-* _islower - what letter is lower
+* _abs - return de absolute valor
 *
-*
-* Return: On succes 0.
+*@a: is a number
+* Return: On succes parameter a.
 * On error.
 */
 int _abs(int a)

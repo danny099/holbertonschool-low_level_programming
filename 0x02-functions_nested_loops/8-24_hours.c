@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* print_alphabet x10 - writes the lowercase letters
+* jack_bauer - pritn all hours and minutes.
 *
 *
 * Return: On success lowercase letters.

@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
-* _islower - what letter is lower
+*print_sign - print a sign of number
 *
-*
-* Return: On succes 0.
+*@n: is a number
+* Return: On succes 1, 0, -1.
 * On error.
 */
 int print_sign(int n)

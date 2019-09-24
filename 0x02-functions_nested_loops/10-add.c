@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
-* print_alphabet x10 - writes the lowercase letters
-*
-*
-* Return: On success lowercase letters.
+*add - sum a two parameter
+*@a: is a number
+*@b: is a number
+* Return: On (succes) variable suma.
 * On error, dont return lowercase letters.
 */
 int add(int a, int b)
