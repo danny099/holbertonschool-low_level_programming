@@ -18,6 +18,10 @@ int main(void)
 		}
 		else if (i % 5 == 0)
 		{
+			if (i == 100)
+			{
+				printf("Buzz\n");
+			}
 			printf("Buzz ");
 		}
 		else if (i % 3 == 0)
@@ -29,6 +33,5 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-	putchar('\n');
 	return (0);
 }
