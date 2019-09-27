@@ -5,7 +5,7 @@
  * prime - number is prime
  * @p: is number
  *
- * Return
+ * Return: On succes prime
  */
 int prime(unsigned long p)
 {
@@ -21,8 +21,7 @@ int prime(unsigned long p)
 }
 
 /**
- * main - prints largest prime factor of 612852475143 followed by '\n'
- *
+ * main - heck the code for Holberton School students.
  * Return: Always 0, Success!
  */
 int main(void)
