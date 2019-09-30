@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
-* _isdigit - what character is number
+* reset_to_98 - reset de variable
 *
-*@c: is a character
-* Return: On succes 1.
+*@n: is a pointer
+* Return: On succes none.
 * On error.
 */
 
