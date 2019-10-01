@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-**_strcpy - copy a string
+**_strcpy - copy a strings
 *
 *@dest: is a pointer
 *@src: is a pointer
