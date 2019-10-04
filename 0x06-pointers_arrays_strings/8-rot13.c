@@ -21,5 +21,5 @@ char *rot13(char *p)
 			}
 		}
 	}
-	return (c);
+	return (p);
 }
