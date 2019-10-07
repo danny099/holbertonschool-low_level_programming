@@ -12,8 +12,7 @@
 char *_strchr(char *s, char c)
 {
 	int true;
-	
-	
+
 	true = 1;
 		while (true)
 		{
