@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-**_memset - change bit
+**_memcpy - change bit
 *
 *@dest: is a pointer
 *@src: is a characther
