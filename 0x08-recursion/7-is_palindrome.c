@@ -25,8 +25,8 @@ int is_palindrome(char *s)
 *_compare - return a size
 *
 *@s: is a pointer
-*ini: is number
-*last: is number
+*@ini: is number
+*@last: is number
 * Return: On succes number.
 * On error.
 */
