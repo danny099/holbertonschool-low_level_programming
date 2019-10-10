@@ -14,20 +14,35 @@ int is_palindrome(char *s)
 
 	ini = 0;
 	count = _strlen_recursion(s);
-	pal = _compare(s, ini, count -1);
+	pal = _compare(s, ini, count - 1);
 	if (pal == 0)
 		return (0);
 	return (1);
 
 }
 
+/**
+*_compare - return a size
+*
+*@s: is a pointer
+*ini: is number
+*last: is number
+* Return: On succes number.
+* On error.
+*/
 int _compare(char *s, int ini, int last)
 {
 
-	
-	if (s[ini] == s[last])
+	if (ini < last)
 	{
-		return (_compare(s, ini + 1, last -1));
+		if (s[ini] == s[last])
+		{
+			return (_compare(s, ini + 1, last - 1));
+		}
+		else
+		{
+			return (0);
+		}
 	}
 	return (1);
 }
