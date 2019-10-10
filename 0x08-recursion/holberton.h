@@ -10,3 +10,4 @@ int wildcmp(char *s1, char *s2);
 int _putchar (char c);
 int prime(int n, int i);
 int square(int n, int i);
+int _compare(char *s, int ini, int last);
