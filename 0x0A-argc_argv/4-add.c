@@ -5,34 +5,30 @@
 *@argc: is a int
 *@argv: is a pointer
 *Return: 0
-	    */
+*/
+
 int main(int argc, char *argv[])
 {
-	int i, sum, number;
+	int i, j, sum, none;
 
+	none = 0;
 	if (argc < 2)
 	{
-		printf("0\n");
+		printf("%d\n", none);
+		return (0);
 	}
-	else
+	for (i = 1; i < argc; i++)
 	{
-		for (i = 1; i < argc; i++)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			number = atoi(argv[i]);
-			if (number != 0)
-			{
-				sum += number;
-			}
-			else
+			if (argv[i][j] < 48 || argv[i][j] > 57)
 			{
 				printf("Error\n");
 				return (1);
 			}
-
 		}
-		printf("%d\n", sum);
+		sum += atoi(argv[i]);
 	}
-	
-
+	printf("%d\n", sum);
 	return (0);
 }
