@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-    *  main - this a firs main
-      * @argc: take a int
-        * @argv: take a pointer
-	  * Return: 0
+*main - is a main
+*@argc: is a int
+*@argv: is a pointer
+*Return: 0
 	    */
 int main(int argc, char *argv[])
 {
