@@ -1,13 +1,12 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
-**create_arrray - create array
-*
-*@size: is a unsigned int
-*@c: is a characther
-* Return: On succes c.
-* On error null.
-*/
+ * create_array - create array
+ * @size: is a unsigned int
+ * @c: is a characther
+ * Return: On succes c.
+ * On error null.
+ */
 
 char *create_array(unsigned int size, char c)
 {
