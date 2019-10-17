@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 * *malloc_checked - check
-* @s: is a unsigned int
+* @b: is a unsigned int
 * Return: On succes m.
 * On error null.
 */
@@ -11,7 +11,7 @@ void *malloc_checked(unsigned int b)
 {
 	char *m;
 
-	m = malloc (b);
+	m = malloc(b);
 	if (m == NULL)
 		exit(98);
 	else
