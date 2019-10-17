@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 * *_calloc - calloc with malloc
-* @nmemb: is a unsigned int
+* @nmemb: is a unsigned integer
 * @size: is a unsigned int
 * Return: On succes m.
 * On error null.
