@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
 * *string_nconcat - concateates two strings
-**s1: is a pointer
-**s2: is a pointer
+* @s1: is a pointer
+* @s2: is a pointer
 * @n: is a unsigned int
 * Return: On succes m.
 * On error null.
@@ -32,7 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		n = l;
 	}
-	m = malloc(sizeof(char) * (k + l));
+	m = malloc(sizeof(char) * (k + l) + 1);
 	if (m == NULL)
 	{
 		return (NULL);
