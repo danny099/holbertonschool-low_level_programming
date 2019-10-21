@@ -19,11 +19,12 @@ int _strlen(char *s)
 }
 
 /**
- * new_dog - create a new dog
+ * *new_dog - create a new dog
  * @name: is a pinter
  * @age: is a float
  * @owner: is a char
- * Return: 
+ * Return:
+ * Return: dog
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -42,7 +43,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	nameSize = _strlen(name);
 	dog->name = malloc(nameSize * sizeof(char));
 	if (dog->name == NULL)
-	{	
+	{
+		free(dog);
 		return (NULL);
 	}
 	for (i = 0; i < nameSize; i++)
@@ -54,6 +56,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog->owner = malloc(ownerSize * sizeof(char));
 	if (dog->owner == NULL)
 	{
+		free(dog->name);
+		free(dog);
 		return (NULL);
 	}
 	for (i = 0; i < ownerSize; i++)
