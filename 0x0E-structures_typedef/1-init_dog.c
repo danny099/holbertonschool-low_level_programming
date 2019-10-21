@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- **_memset - change bit
+ *init_dog - init dog
  *
  *@d: is a struct
  *@name: is a name of the dog
