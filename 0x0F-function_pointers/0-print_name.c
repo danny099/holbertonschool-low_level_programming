@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
-* _isupper - what letter is upper
+* print_name - print a name
 *
-*@c: is a letter
+*@name: is a pointer
+*@f: is a function pointer
 * Return: On succes 1.
 * On error.
 */

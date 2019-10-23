@@ -1,0 +1,22 @@
+#include "function_pointers.h"
+#include <stdio.h>
+
+/**
+* array_iterator - array
+*
+*@array: is a pointer
+*@size: is a size of array
+*@action: is a pointer function
+* Return: On succes .
+* On error.
+*/
+
+void array_iterator(int *array, size_t size, void (*action)(int))
+{
+	unsigned int i;
+
+	for (i = 0; i < size; i++)
+	{
+		action(array[i]);
+	}
+}
