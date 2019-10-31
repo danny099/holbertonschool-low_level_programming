@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * first - print first
+ * before - print first
  */
 void before(void) __attribute__ ((constructor));
 
