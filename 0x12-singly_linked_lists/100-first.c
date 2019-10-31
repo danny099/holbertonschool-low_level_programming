@@ -1,15 +1,13 @@
-#include<stdio.h> 
+#include<stdio.h>
 
 /**
- * beforeMain - print before main
- *
- * Return: On succes 1.
- * On error.
+ * before - print before main
  */
 
-void beforeMain (void) __attribute__ ((constructor)); 
+void before(void) __attribute__ ((constructor));
 
-void beforeMain (void) 
-{ 
-	printf ("You're beat! and yet, you must allow,\nI bore my house upon my back!\n"); 
+void before(void)
+{
+	printf("You're beat! and yet, you must allow,\n");
+	printf("I bore my house upon my back!\n");
 }
