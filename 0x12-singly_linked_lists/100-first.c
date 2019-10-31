@@ -1,9 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * before - print before main
+ * first - print first
  */
-
 void before(void) __attribute__ ((constructor));
 
 void before(void)
