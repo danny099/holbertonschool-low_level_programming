@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * listint_len| - print a list
+ * listint_len - print a list
  *
  *@h: is a pointer
  * Return: On succes 1.
