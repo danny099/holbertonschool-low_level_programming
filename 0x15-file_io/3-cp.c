@@ -1,14 +1,14 @@
 #include "holberton.h"
 /**
  * error - error becouse betty fails
- * @exit: is a int
+ * @ex: is a int
  * @msg: is a pointer
  * @file: is a pointer
  */
-void error(int exit, const char *msg, const char *file)
+void error(int ex, const char *msg, const char *file)
 {
 	dprintf(STDERR_FILENO, "%s %s\n", msg, file);
-	exit(exit);
+	exit(ex);
 }
 
 /**
