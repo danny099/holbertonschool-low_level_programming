@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * dlistint_len - print a list
+ * add_dnodeint - print a list
  *
  *@head: is a pointer
  *@n: is a const int
