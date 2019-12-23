@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * free_dlistint - print a list
+ * get_dnodeint_at_index - print a list
  *
  *@head: is a pointer
  *@index: is a unigned int
